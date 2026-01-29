@@ -1,3 +1,4 @@
+ARG ZABBIX_VERSION
 FROM zabbix/zabbix-proxy-sqlite3:${ZABBIX_VERSION}
 USER root
 SHELL ["/bin/bash", "-o", "pipefail", "-c"]
