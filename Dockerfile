@@ -1,4 +1,4 @@
-ARG ZABBIX_VERSION=ubuntu-7.2.2
+ARG ZABBIX_VERSION=ubuntu-7.4-latest
 FROM zabbix/zabbix-proxy-sqlite3:${ZABBIX_VERSION}
 USER root
 SHELL ["/bin/bash", "-o", "pipefail", "-c"]
